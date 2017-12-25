@@ -1,0 +1,9 @@
+site_homepage:
+    path:     /
+    defaults: { _controller: SiteBundle:Default:index }
+
+site_show:
+    path:     /{id}
+    defaults: { _controller: SiteBundle:Default:show }
+    requirements:
+        id: \d+

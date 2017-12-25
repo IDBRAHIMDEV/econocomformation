@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mon Blog</title>
+
+	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+</head>
+<body>
+	
+
+   {{ include('PostBundle::partials/navbar.html.twig') }}
+
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-3">
+    			<ul class="list-group">
+    				<li class="list-group-item">lorem 1</li>
+    				<li class="list-group-item">lorem 2</li>
+    				<li class="list-group-item">lorem 3</li>
+    				<li class="list-group-item">lorem 4</li>
+    				
+    			</ul>
+    		</div>
+    		<div class="col-md-9">
+    			  {% block body %}{% endblock %}
+    		</div>
+    	</div>
+    </div>
+
+
+  
+
+
+
+
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+</body>
+</html>
