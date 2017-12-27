@@ -12,7 +12,7 @@
      	{% for post in posts %}
      	  <li class="list-group-item">
      	  	<h2>{{ post.title }}</h2>
-     	  	<p>{{ post.body }}</p>
+     	  	<p>{{ post.content }}</p>
            
            <div align="right">
            	<a href="{{ path('post-show', {'id': loop.index0}) }}" class="btn btn-default">Show</a>

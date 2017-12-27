@@ -6,17 +6,53 @@
 
 <h1>Nouveau post</h1>	
 
-  <form action="">
-    <div class="form-group">
-      <label for="title">Title</label>
-      <input placeholder="Add new title" id="title" type="text" class="form-control">
-    </div>
-    <div class="form-group">
-      <label for="body">body</label>
-      <textarea placeholder="Add here new body" name="body" id="body" rows="10" class="form-control"></textarea>
-    </div>
+  {{ form_start(formulaire) }}
 
-    <button class="btn btn-block btn-success">Add</button>
-  </form>
+      <div class="row">
+         <div class="col-md-8 col-md-offset-2">
+           <div class="form-group">
+            {{ form_label(formulaire.category) }}
+            {{ form_widget(formulaire.category, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(formulaire.category) }}
+          </div>
+            <div class="form-group">
+            {{ form_label(formulaire.title) }}
+            {{ form_widget(formulaire.title, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(formulaire.title) }}
+          </div>
+          <div class="form-group">
+           {{ form_label(formulaire.content) }}
+            {{ form_widget(formulaire.content, {'attr': {'class': 'form-control'}}) }}
+          </div>
+          <div class="form-group">
+           {{ form_label(formulaire.datepublication) }}
+            {{ form_widget(formulaire.datepublication, {'attr': {'class': 'form-control'}}) }}
+          </div>
+           
+           <hr>
+            <div class="form-group">
+              {{ form_row(formulaire.image.alt, {'attr': {'class': 'form-control', 'placeholder': 'Merci de mettre une description d image'}}) }}
+            </div>
 
+             <div class="form-group">
+              {{ form_row(formulaire.image.url, {'attr': {'class': 'form-control'}}) }}
+            </div>
+           <hr>
+
+          <div class="checkbox">
+            <label for="">
+              {{ form_widget(formulaire.active) }}
+               active
+            </label>
+            
+          </div>
+
+          <div class="form-group">
+            {{ form_row(formulaire.add, {'attr': {'class': 'btn btn-success btn-block'}}) }}
+          </div>
+         </div>
+         
+        </div>  
+
+  {{ form_end(formulaire) }}
 {% endblock %}
