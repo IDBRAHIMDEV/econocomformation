@@ -121,6 +121,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
+        // contact
+        if ('/contact' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::sendMail',  '_route' => 'contact',);
+        }
+
         // post_default_index
         if ('/admin' === $trimmedPathinfo) {
             if (substr($pathinfo, -1) !== '/') {
