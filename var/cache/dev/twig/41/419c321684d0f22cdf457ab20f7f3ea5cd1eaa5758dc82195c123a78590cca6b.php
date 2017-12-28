@@ -16,11 +16,11 @@ class __TwigTemplate_6517f736773fb77a3f2335d6cb07a388b5297d37e8032cd0412d72ffc4e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_61fed6fa65c252129d6dc8d3575b493536f440793edea83f259f6b7e72ffa81a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_61fed6fa65c252129d6dc8d3575b493536f440793edea83f259f6b7e72ffa81a->enter($__internal_61fed6fa65c252129d6dc8d3575b493536f440793edea83f259f6b7e72ffa81a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PostBundle::base.html.twig"));
+        $__internal_1326af73084434949a7427e1600d4506bf439ab594597cc55bf3f1e37a66edd6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1326af73084434949a7427e1600d4506bf439ab594597cc55bf3f1e37a66edd6->enter($__internal_1326af73084434949a7427e1600d4506bf439ab594597cc55bf3f1e37a66edd6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PostBundle::base.html.twig"));
 
-        $__internal_29e8125c580a077da751056cc67c5f4f6387c1c8257aa12d21ec08b3b2b4a66a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_29e8125c580a077da751056cc67c5f4f6387c1c8257aa12d21ec08b3b2b4a66a->enter($__internal_29e8125c580a077da751056cc67c5f4f6387c1c8257aa12d21ec08b3b2b4a66a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PostBundle::base.html.twig"));
+        $__internal_af2deee82b539fd950d9aaac767bf7cfbc443dc13ce31b5fb779df0b9bfcbaab = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_af2deee82b539fd950d9aaac767bf7cfbc443dc13ce31b5fb779df0b9bfcbaab->enter($__internal_af2deee82b539fd950d9aaac767bf7cfbc443dc13ce31b5fb779df0b9bfcbaab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PostBundle::base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -31,7 +31,7 @@ class __TwigTemplate_6517f736773fb77a3f2335d6cb07a388b5297d37e8032cd0412d72ffc4e
 
 \t<link rel=\"stylesheet\" href=\"";
         // line 7
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/bootstrap.min.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/bootstrappapper.min.css"), "html", null, true);
         echo "\">
 </head>
 <body>
@@ -80,27 +80,27 @@ class __TwigTemplate_6517f736773fb77a3f2335d6cb07a388b5297d37e8032cd0412d72ffc4e
 </body>
 </html>";
         
-        $__internal_61fed6fa65c252129d6dc8d3575b493536f440793edea83f259f6b7e72ffa81a->leave($__internal_61fed6fa65c252129d6dc8d3575b493536f440793edea83f259f6b7e72ffa81a_prof);
+        $__internal_1326af73084434949a7427e1600d4506bf439ab594597cc55bf3f1e37a66edd6->leave($__internal_1326af73084434949a7427e1600d4506bf439ab594597cc55bf3f1e37a66edd6_prof);
 
         
-        $__internal_29e8125c580a077da751056cc67c5f4f6387c1c8257aa12d21ec08b3b2b4a66a->leave($__internal_29e8125c580a077da751056cc67c5f4f6387c1c8257aa12d21ec08b3b2b4a66a_prof);
+        $__internal_af2deee82b539fd950d9aaac767bf7cfbc443dc13ce31b5fb779df0b9bfcbaab->leave($__internal_af2deee82b539fd950d9aaac767bf7cfbc443dc13ce31b5fb779df0b9bfcbaab_prof);
 
     }
 
     // line 27
     public function block_body($context, array $blocks = array())
     {
-        $__internal_e00b466b61392850a686a39730de7d9f7402716d9f3f5280f3e6a7c22903a392 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e00b466b61392850a686a39730de7d9f7402716d9f3f5280f3e6a7c22903a392->enter($__internal_e00b466b61392850a686a39730de7d9f7402716d9f3f5280f3e6a7c22903a392_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_29891f8eacc332f749b9e20a2feb937524230ead04680773f555f5198619ac8d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_29891f8eacc332f749b9e20a2feb937524230ead04680773f555f5198619ac8d->enter($__internal_29891f8eacc332f749b9e20a2feb937524230ead04680773f555f5198619ac8d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_2dc2e5bf9231555ca404f6a426e8ffafe85123f607625e59115fd9c5b23b7bb3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2dc2e5bf9231555ca404f6a426e8ffafe85123f607625e59115fd9c5b23b7bb3->enter($__internal_2dc2e5bf9231555ca404f6a426e8ffafe85123f607625e59115fd9c5b23b7bb3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
-
-        
-        $__internal_2dc2e5bf9231555ca404f6a426e8ffafe85123f607625e59115fd9c5b23b7bb3->leave($__internal_2dc2e5bf9231555ca404f6a426e8ffafe85123f607625e59115fd9c5b23b7bb3_prof);
+        $__internal_f89e1c9fffe75db2d8eda1eb5c28e8e02d4343acf587ce9e49c305f157e326f5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f89e1c9fffe75db2d8eda1eb5c28e8e02d4343acf587ce9e49c305f157e326f5->enter($__internal_f89e1c9fffe75db2d8eda1eb5c28e8e02d4343acf587ce9e49c305f157e326f5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         
-        $__internal_e00b466b61392850a686a39730de7d9f7402716d9f3f5280f3e6a7c22903a392->leave($__internal_e00b466b61392850a686a39730de7d9f7402716d9f3f5280f3e6a7c22903a392_prof);
+        $__internal_f89e1c9fffe75db2d8eda1eb5c28e8e02d4343acf587ce9e49c305f157e326f5->leave($__internal_f89e1c9fffe75db2d8eda1eb5c28e8e02d4343acf587ce9e49c305f157e326f5_prof);
+
+        
+        $__internal_29891f8eacc332f749b9e20a2feb937524230ead04680773f555f5198619ac8d->leave($__internal_29891f8eacc332f749b9e20a2feb937524230ead04680773f555f5198619ac8d_prof);
 
     }
 
@@ -135,7 +135,7 @@ class __TwigTemplate_6517f736773fb77a3f2335d6cb07a388b5297d37e8032cd0412d72ffc4e
 \t<meta charset=\"UTF-8\">
 \t<title>Mon Blog</title>
 
-\t<link rel=\"stylesheet\" href=\"{{ asset('css/bootstrap.min.css') }}\">
+\t<link rel=\"stylesheet\" href=\"{{ asset('css/bootstrappapper.min.css') }}\">
 </head>
 <body>
 \t

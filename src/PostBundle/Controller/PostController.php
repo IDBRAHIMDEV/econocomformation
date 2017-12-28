@@ -53,12 +53,16 @@ class PostController extends Controller
                 $post->getImage()->setUrl($fileName);
                 $em->persist($post);
                 $em->flush();
+                
+                //$request->getSession()->getFlashBag()->add('success', 'Post a été bien crée');
+
+                $this->addFlash('success', 'Post a été bien crée');
 
                 return $this->redirectToRoute('post_index');
             }
           
     	
-
+           
         return $this->render('PostBundle:Post:create.html.twig', 
             ['formulaire' => $form->createView()]);
     }

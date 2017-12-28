@@ -7,6 +7,6 @@ parameters:
     database_password: null
     mailer_transport: smtp
     mailer_host: 127.0.0.1
-    mailer_user: null
+    mailer_user: mohamed
     mailer_password: null
     secret: 81eeee247b4e39750adae89bcf5090ac8512c72d

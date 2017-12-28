@@ -19,6 +19,8 @@ class AppKernel extends Kernel
             new BlogBundle\BlogBundle(),
             new SiteBundle\SiteBundle(),
             new PostBundle\PostBundle(),
+            // pour authentification
+            new FOS\UserBundle\FOSUserBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
